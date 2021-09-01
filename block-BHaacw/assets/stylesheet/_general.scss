@@ -1,0 +1,80 @@
+/***********Custom Code ***********/
+
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+body{
+    
+    font-family: $fontFamily;
+    background-color: $primaryColor;
+
+}
+
+html{
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+h1{
+    font-size:3.2rem;
+    font-weight: 800;
+    color:#ffff;
+    padding:1rem;
+}
+h2{
+    font-size: 1.5rem;
+    padding:1rem;
+
+}
+
+.container{
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
+    padding:0 1rem;
+    border:1px solid black;
+    
+}
+.container2{
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
+    // padding:0 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    // grid-template-columns: minmax(autofil);
+
+}
+
+.full-width{
+    width:100%;
+}
+
+.column{
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.padding{
+        padding:40px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.margins{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+
+}
