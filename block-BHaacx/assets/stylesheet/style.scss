@@ -1,0 +1,405 @@
+@import "vars";
+@import "resets";
+@import "general";
+@import "flex";
+
+
+/***********Header  navigation bars***********/
+.header{    
+    color:$textColor1;
+    font-size: 1rem;
+    font-weight: 300;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+}
+
+.brand-name a{
+    margin-left:1rem;
+    font-size:1.5rem;
+    font-weight:700;
+    // padding: 2rem;
+}
+.brand-name a{
+    color:$secondary;
+    text-shadow: 1px 1px #fff;
+}
+
+.nav-bar{
+    padding:0 2rem;
+}
+.nav-bar li{
+    padding:0 1.2rem;
+    text-transform: capitalize;
+    font-size:1.2rem;
+}
+
+.nav-bar a{
+   color:$textColor1;
+      
+}
+
+.nav-bar .nav-list{
+    padding: 2.5rem 1.2rem;
+}
+.nav-bar .nav-list a:hover{
+
+    color:$primary1;
+    
+}
+.bars i{
+    display: none;
+}
+
+#toggle{
+    display: none;
+}
+
+/***************Hero section************/
+.hero{
+    position: relative;
+    
+    z-index:-1
+}
+.hero-col1{
+    grid-column: span 2;
+    height:100vh;
+}
+.hero-img{
+    height: 100vh;
+    object-fit: cover;
+}
+.hero-col2{
+    height:100vh;
+    padding:4rem;
+    grid-column: span 2;
+    background-color: #f5e3d7;
+    color:$textColor1;
+    place-content: center;
+}
+
+.hero-col2 strong {
+    font-weight: 400;
+    color:$secondary;
+}
+
+.hero-para{
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding:1rem 0;
+    color:#81807e;
+    margin-bottom: 2rem;
+}
+
+.hero-btn{
+    font-size: 1rem;
+    color:$secondary;
+}
+
+.hero-btn:hover{
+    background-color: $primary1;
+    color:#fff;
+    border:none;
+}
+/*********************Section 2 ****************/
+.sec2-col1{
+    grid-column: span 2;
+    background-color: #fff;
+    color:$textColor1;
+    padding:1rem;
+    h1{
+        padding-top: 2rem;
+    }
+}
+.sec2-col2{
+    grid-column: span 1;
+   
+    overflow: hidden;
+}
+.sec2-col3{
+    grid-column: span 1;
+    background-color: $primary1;
+    color:#fff;
+    padding:1rem;
+    h1{
+        padding-top: 2rem;
+    }
+}
+.color-primary{
+    color:$primary1;
+}
+
+
+.desc-para{
+    font-size:1rem;
+    padding-bottom: 1rem;
+}
+
+.sec2-col2-img{
+    width:100%;
+    height:200%;
+    object-fit:cover;
+}
+
+
+.main-para{
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding-bottom:0.5rem ;
+    color:#81807e;
+    
+}
+
+.progress-white{
+    border-top:2px solid #fff;
+}
+.progress-black{
+    border-top:2px solid black;
+}
+
+.sec2-p{
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+.progress{
+    padding-top:1rem;
+}
+.progress-bar{
+    padding-bottom: 1rem;
+}
+
+.progress-desc{
+    padding-bottom: 1rem;
+}
+
+/************Section 3 Services***********/
+.sec3-service{
+    text-align: center;
+}
+.service-col1{
+    grid-column: span 1;
+    background-color: $primary1;
+    color:#fff;
+    padding:1rem;
+    i{
+        font-size:2rem;
+    }
+}
+
+.service-col2{
+    grid-column: span 1;
+    background-color: $primary2;
+    color:#fff;
+    padding:1rem;
+    i{
+        font-size:2rem;
+    }
+}
+
+.service-col3{
+    grid-column: span 1;
+    background-color: $secondary;
+    color:#fff;
+    padding:1rem;
+    i{
+        font-size:2rem;
+    }
+}
+
+.service-col4{
+    grid-column: span 1;
+    background-color: #ffff;
+    color:$textColor1;
+    padding:1rem;
+    i{
+        font-size:2rem;
+    }
+}
+
+h3{
+    font-size:1.5rem;
+    padding:1rem 0;
+    font-weight: 300;
+}
+
+.service-para{
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    padding:1.2rem;
+}
+
+/**************Section 4 Experiences***********/
+.sec4-exp-col1{
+    grid-column: span 2;
+    overflow: hidden;
+    height:400px;
+}
+
+.sec4-exp-col2{
+    grid-column: span 2;
+    background-color: $primary2;
+    color:#ffff;
+    padding:2rem 3rem;
+    height:400px;
+}
+
+.sec4-exp-col1 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.media-icon{
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.media-heading small{
+    font-size: 1rem;
+    color:$secondary;
+    font-weight: 500;
+    padding:0 0.5rem;
+}
+
+/************Section 5 Education***************/
+.sec5-education-col1{
+    grid-column: span 2;
+    background-color: $primary1;
+    color:#ffff;
+    padding:2rem;
+    height:400px;
+}
+
+.sec5-education-col2{
+    grid-column: span 2;
+    overflow: hidden;
+    height:400px;
+}
+
+.sec5-education-col2-img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+/*************Section 6 Form **********/
+.form-col{
+    grid-column: span 2;
+    background-color: $primary2;
+    color:#ffff;
+    padding:2rem;
+}
+
+.pic-col{
+    grid-column: span 1;
+    
+}
+
+.contact-col{
+    grid-column: span 1;
+    background-color: $secondary;
+    color:#ffff;
+    padding:2rem;
+}
+
+
+.text-box{
+    width:97%;
+    height:3.5rem;
+    margin-bottom: 1rem;
+    background-color: $primary2;
+    border:none;
+    border-bottom:1px solid $primary1;
+    color:#fff;
+    font-weight: 300;
+    font-size:1.2rem;
+    padding-left:1rem;
+    background: transparent;
+}
+
+.text-area{
+    width:97%;
+    font-size:1.2rem;
+    color:#fff;
+    background-color: $primary2;
+    border:none;
+    border-bottom:1px solid $primary1;
+    font-weight: 500;
+    padding-left:1rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.send-btn{
+    padding:0.8rem 8rem;
+    background-color: #fff;
+    border:none;
+    color:$secondary;
+    font-size:1.1rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.contact-para{
+    font-weight: 100;
+    padding-bottom:3rem;
+    color:#888;
+}
+
+.contact-details{
+    color:#888;
+    font-weight: 100;
+    padding-bottom: 2rem;
+    i{
+      padding-right: 1rem;
+    }
+    a{
+        color:$primary1;
+    }
+}
+
+.pic-col img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+/****************MAP***************/
+.map-col{
+    grid-column: span 4;
+    background-color: $primary2;
+    text-align: center;
+    padding: 2rem;
+}
+
+/****************Footer*******************/
+.footer{
+    
+   
+    padding: 6rem 0;
+    
+}
+.footer-col{
+    grid-column: span 4;
+    background-color: #fff;
+}
+.footer-copyright{
+    color:#888;
+    text-align: center;
+    span{
+        color:$primary1;
+    }
+}
+
+.social-icon li{
+    
+    padding:1rem;
+    a{
+        color:#888;
+    }
+}

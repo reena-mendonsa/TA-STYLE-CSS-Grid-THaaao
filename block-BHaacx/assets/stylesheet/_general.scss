@@ -1,0 +1,89 @@
+/***********General Code ***********/
+
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+body{
+    
+    font-family: $fontFamily;
+}
+
+html{
+    font-size: 16px;
+}
+
+
+
+h1{
+    font-size:2.2rem;
+    font-weight: 100;
+    padding-bottom: 2rem;
+    
+}
+h4{
+    font-size:0.8rem;
+    text-transform: uppercase;
+    color:#81807e;
+    padding-top:10rem ;
+    padding-bottom: 1rem;
+}
+
+
+.container{
+    max-width:1400px;
+    width:100%;
+    margin:0 auto;
+    padding:0 1rem;
+    // border:1px solid black;
+}
+.grid-container{
+    // max-width:1400px;
+    max-width: 100vw;
+    width:100%;
+    margin:0 auto;
+    display: grid;
+    // grid-gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
+.full-width{
+    width:100%;
+    
+}
+
+.column{
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.padding{
+        padding:1rem 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.margins{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+
+}
+
+.btn{
+    margin:1rem 0;
+    padding:0.8rem 2.2rem;
+    border:2px solid $secondary;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration: none;
+     border-radius: 20px; 
+}

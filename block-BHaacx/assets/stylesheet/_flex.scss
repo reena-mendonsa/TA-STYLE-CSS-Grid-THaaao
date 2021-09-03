@@ -1,0 +1,53 @@
+.flex{
+    display: flex;
+    
+}
+
+.justify-content{
+    
+    justify-content: space-between;
+}
+
+.flex-start{
+    
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.align-center{
+    align-items: center;
+}
+.flex-center{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-wrap {    
+    flex-wrap: wrap;
+}
+/************Flex columns *************/
+.flex10{
+    flex:0 1 10%;
+   
+}
+.flex20{
+    flex:0 1 20%;
+   
+}
+.flex30{
+    flex:0 1 30%;
+   
+}
+.flex70{
+    flex:0 1 70%;
+   
+}
+.flex80{
+    flex:0 1 80%;
+   
+}
+.flex90{
+    flex:0 1 90%;
+   
+}
